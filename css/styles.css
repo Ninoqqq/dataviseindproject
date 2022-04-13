@@ -1,0 +1,684 @@
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920__1;
+	}
+
+	#Web_1920__1 {
+		position: absolute;
+		width: 1560px;
+		height: 900px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		overflow-y: auto;
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+    
+    input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        background-color: rgb(226, 226, 226);
+        padding-left: 3px;
+      }
+	#Initile_investering {
+		left: 570.178px;
+		top: 332px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Investering_per_maand {
+		left: 570.178px;
+		top: 396px;
+		position: absolute;
+		overflow: visible;
+		width: 159px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Pensioenduur_in_jaren {
+		left: 69.178px;
+		top: 332px;
+		position: absolute;
+		overflow: visible;
+		width: 154px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Rectangle_5 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 44px;
+		height: 44px;
+		left: 570.178px;
+		top: 284px;
+	}
+	#Aandelen {
+		left: 570.178px;
+		top: 280px;
+		position: absolute;
+		overflow: visible;
+		width: 143px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#Hoeveel_jaar_gewerkt {
+		left: 570.178px;
+		top: 639px;
+		position: absolute;
+		overflow: visible;
+		width: 157px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Jaren_tot_aan_AOW {
+		left: 572.178px;
+		top: 702px;
+		position: absolute;
+		overflow: visible;
+		width: 133px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Opname_pensioenmaand {
+		left: 69.178px;
+		top: 396px;
+		position: absolute;
+		overflow: visible;
+		width: 185px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Verwacht_rendement_in_procente {
+		left: 570.178px;
+		top: 459px;
+		position: absolute;
+		overflow: visible;
+		width: 241px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Initile_investering_q {
+		left: 1071.178px;
+		top: 332px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Investering_per_maand_r {
+		left: 1071.178px;
+		top: 396px;
+		position: absolute;
+		overflow: visible;
+		width: 159px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Rente_ {
+		left: 1070.178px;
+		top: 459px;
+		position: absolute;
+		overflow: visible;
+		width: 59px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Fees_per_jaar_in_ {
+		left: 570.178px;
+		top: 523px;
+		position: absolute;
+		overflow: visible;
+		width: 125px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Hoeveel_nachtjes_tot_mijn_pens {
+		left: 161.178px;
+		top: 60px;
+		position: absolute;
+		overflow: visible;
+		width: 1120px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 66px;
+		color: rgba(112,112,112,1);
+	}
+	#Rectangle_16 {
+		fill: rgba(97,156,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_16 {
+		mix-blend-mode: multiply;
+		position: absolute;
+		overflow: visible;
+		width: 380px;
+		height: 104px;
+		left: 1070.178px;
+		top: 658px;
+	}
+	#Berekenen {
+		left: 1137.178px;
+		top: 673px;
+		position: absolute;
+		overflow: visible;
+		width: 244px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 49px;
+		color: rgba(112,112,112,1);
+	}
+	#Group_1 {
+		position: absolute;
+		width: 1383px;
+		height: 404px;
+		left: 69.178px;
+		top: 358px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 380px;
+		height: 34px;
+		left: 500px;
+		top: 0px;
+	}
+	#Rectangle_17 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 379px;
+		height: 33px;
+		left: 500px;
+		top: 64px;
+	}
+	#Path_1 {
+		fill: rgba(242,242,242,1);
+	}
+	.Path_1 {
+		overflow: visible;
+		position: absolute;
+		width: 379.605px;
+		height: 33.153px;
+		left: 500.605px;
+		top: 127.999px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_19 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 379px;
+		height: 33px;
+		left: 501px;
+		top: 192px;
+	}
+	#Path_2 {
+		fill: rgba(242,242,242,1);
+	}
+	.Path_2 {
+		overflow: visible;
+		position: absolute;
+		width: 379.605px;
+		height: 33.153px;
+		left: 500.605px;
+		top: 307.027px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_20 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_20 {
+		position: absolute;
+		overflow: visible;
+		width: 379px;
+		height: 33px;
+		left: 501px;
+		top: 371px;
+	}
+	#Rectangle_21 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 379px;
+		height: 34px;
+		left: 1002px;
+		top: 0px;
+	}
+	#Rectangle_22 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 380px;
+		height: 33px;
+		left: 1002px;
+		top: 64px;
+	}
+	#Path_3 {
+		fill: rgba(242,242,242,1);
+	}
+	.Path_3 {
+		overflow: visible;
+		position: absolute;
+		width: 379.605px;
+		height: 33.153px;
+		left: 1002.048px;
+		top: 127.999px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_23 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_23 {
+		position: absolute;
+		overflow: visible;
+		width: 379px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+	}
+	#inputtext_Hoeveel {
+		fill: rgba(242,242,242,1);
+	}
+	.inputtext_Hoeveel {
+		position: absolute;
+		overflow: visible;
+		width: 380px;
+		height: 33px;
+		left: 0px;
+		top: 64px;
+	}
+	#Rectangle_25 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_25 {
+		position: absolute;
+		overflow: visible;
+		width: 44px;
+		height: 44px;
+		left: 1073.178px;
+		top: 284px;
+	}
+	#Sparen {
+		left: 1070.178px;
+		top: 280px;
+		position: absolute;
+		overflow: visible;
+		width: 105px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#Rectangle_26 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_26 {
+		position: absolute;
+		overflow: visible;
+		width: 44px;
+		height: 44px;
+		left: 572.178px;
+		top: 590px;
+	}
+	#AOW {
+		left: 570.178px;
+		top: 587px;
+		position: absolute;
+		overflow: visible;
+		width: 79px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+	#n_0 {
+		left: 78px;
+		top: 361px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_500 {
+		left: 78px;
+		top: 425px;
+		position: absolute;
+		overflow: visible;
+		width: 44px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_0000 {
+		left: 572px;
+		top: 360px;
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_00 {
+		left: 572px;
+		top: 424px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_0_bh {
+		left: 572px;
+		top: 489px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_35 {
+		left: 572px;
+		top: 551px;
+		position: absolute;
+		overflow: visible;
+		width: 38px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_5 {
+		left: 572px;
+		top: 667px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_1 {
+		left: 572px;
+		top: 730px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_0000_bl {
+		left: 1074px;
+		top: 361px;
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_00_bm {
+		left: 1074px;
+		top: 425px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#n_05 {
+		left: 1074px;
+		top: 488px;
+		position: absolute;
+		overflow: visible;
+		width: 38px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Pensioen {
+		left: 69.178px;
+		top: 278px;
+		position: absolute;
+		overflow: visible;
+		width: 135px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		color: rgba(112,112,112,1);
+	}
+
+    button {
+        overflow: visible;
+		position: absolute;
+		width: 385.605px;
+		height: 33.153px;
+		left: 1002.048px;
+		top: 177.999px;
+    }
+
+	#Projectie {
+		left: 30.178px;
+		top: 810px;
+		position: absolute;
+		overflow: visible;
+		width: 159px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+
+	#Line_1 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_1 {
+		overflow: visible;
+		position: absolute;
+		width: 1591.357px;
+		height: 1px;
+		top: 242.737px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+	#Line_2 {
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		width: 1591.357px;
+		height: 1px;
+		top: 792.737px;
+		transform: matrix(1,0,0,1,0,0);
+	}
