@@ -16,9 +16,7 @@ function ophalen(){
 function berekenen(){
     var pRule = +opname * 300
     var eindbedrag = 0
-    var aowbedrag = 1250
     i = 0
-    aowbedrag = +aowbedrag * (+aowgw * 0.02)
     while (pRule > eindbedrag) {
         if (i == 0) {
         eindbedrag += (+aandeleninit + (+aandelenmnd * 12)) * (1+(+aandelenrenp/100))
@@ -32,15 +30,21 @@ function berekenen(){
         }
         i += 1
     }
+    console.log(aowtot)
+    if (i > aowtot && aowtot != "") {
+        document.getElementById('Projectie').innerHTML ="U kunt niet eerder met pensioen";
+    }
+    else {
     i = i*365
-    aantalbedden = [];
-    for (k = 0; k < i; k++) {
-        aantalbedden.push(1)
-      }
-    document.getElementById('Projectie').innerHTML ="Met de huidig ingevoerde waardes kunt u over " +i+ " nachtjes slapen met pensioen";
-    if (a == 0){
-    bedden();
-    a = a + 1
+        aantalbedden = [];
+        for (k = 0; k < i; k++) {
+            aantalbedden.push(1)
+        }
+        document.getElementById('Projectie').innerHTML ="Met de huidig ingevoerde waardes kunt u over " +i+ " nachtjes slapen met pensioen";
+        if (a == 0){
+        bedden();
+        a = a + 1
+        }
     }
 }
 
